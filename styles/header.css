@@ -1,0 +1,9 @@
+.navbar {
+}
+.navbar .navbar__item {
+    transition: .5;
+  }
+.navbar .navbar__item:hover {
+  opacity: 0.8;
+  transition: .5;
+}

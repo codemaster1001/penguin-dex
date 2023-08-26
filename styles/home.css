@@ -1,0 +1,7 @@
+.stats__list-header {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.12);
+  padding-bottom: 10px;
+}
+.table-data thead {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.12);
+}

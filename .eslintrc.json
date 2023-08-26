@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json.schemastore.org/eslintrc",
+  "root": true,
+  "extends": ["next/core-web-vitals", "prettier", "plugin:tailwindcss/recommended"],
+  "plugins": ["tailwindcss"],
+  "rules": {
+    "@next/next/no-html-link-for-pages": "off",
+    "react/jsx-key": "off",
+    "tailwindcss/no-custom-classname": "off",
+    "no-unused-vars": "warn",
+    "camelcase": "error",
+    "no-duplicate-imports": "error",
+    "no-alert": "error",
+    "no-trailing-spaces": ["error"],
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "comma-dangle": ["error", "always-multiline"],
+    "brace-style": ["error"],
+    "comma-spacing": ["error"],
+    "array-bracket-spacing": ["error"],
+    "keyword-spacing": ["error"],
+    "key-spacing": ["error"],
+    "eol-last": ["error"],
+    "switch-colon-spacing": ["error", { "after": true, "before": false }],
+    "object-curly-spacing": ["error", "always"],
+    "space-infix-ops": ["error", { "int32Hint": false }],
+    "space-before-blocks": ["warn"],
+    "arrow-parens": ["warn"],
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": "*",
+        "next": "return"
+      },
+      {
+        "blankLine": "always",
+        "prev": ["const", "let", "var"],
+        "next": "*"
+      },
+      {
+        "blankLine": "any",
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"]
+      }
+    ]
+  },
+  "settings": {
+    "tailwindcss": {
+      "callees": ["cn"],
+      "config": "tailwind.config.js"
+    },
+    "next": {
+      "rootDir": ["./"]
+    }
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parser": "@typescript-eslint/parser"
+    }
+  ]
+}

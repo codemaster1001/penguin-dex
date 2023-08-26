@@ -1,0 +1,60 @@
+export const BORING_AVATAR_COLOR_PALETTE = ["#92A1C6", "#146A7C", "#F0AB3D", "#C271B4", "#C20D90"]
+export const BORING_AVATAR_ENDPOINT = "https://source.boringavatars.com/"
+
+export const USERS_COLLECTION = "users"
+export const EARNS_COLLECTION = "earns"
+export const BETS_COLLECTION = "bets"
+
+export const SOLANA_RPC = process.env.NEXT_PUBLIC_SOLANA_RPC! || "https://api.devnet.solana.com"
+export const PEGUIN_MASTER_PRIVATE_KEY = process.env.NEXT_PUBLIC_PEGUIN_MASTER_PRIVATE_KEY!
+
+export const USDC_MINT = process.env.NEXT_PUBLIC_USDC_MINT!
+export const HXRO_MINT = process.env.NEXT_PUBLIC_HXRO_MINT!
+
+export const SHYFT_ENDPOINT = process.env.NEXT_PUBLIC_SHYFT_ENDPOINT!
+export const SHYFT_API_KEY = process.env.NEXT_PUBLIC_SHYFT_API_KEY!
+
+export const WALLETS = [
+  "2Y6Fr7SDqRqY5oEmZUf1qw4rciMCgfHB71kd28TJqrY1",
+  "8DNCyg6MgqXW5mqAeCDsjRxULAs4sLAtGBLfEUYWsMxT",
+  "9ZSu768buFKR3yTHFc5KBBAeGPk8emWmEGSpHx1odurW",
+  "FNQJFcy3fAvQJXAVpX7MXd1BaqJu2y9uuYQXKFYYAdd1",
+  "7Ppgch9d4XRAygVNJP4bDkc7V6htYXGfghX4zzG9r4cH",
+  "67mvcnEecy8SPtqBq6xyDEEmENGdKub1NHXAL5zgCnxz",
+  "82VvRxoj6EdYt8BZsHgwD4cyV2HFYo4DwxVgv8i9L2zC",
+  "6VqzFgtrJb33nhvbug4KZoUx8p65dD2iT1QuAeAQgYiw",
+  "4q4JP7HiBAboeCsaWiYpJACEU9Wznrroec2xANPg27GD",
+  "4wS6yDzE1Se6GcqH821rgWnxs1EfFEooEnuEMftfCB5A",
+  "D9bTPoE4aPk5mi56TXeAujkZZkycSSvuDZ9AB16L6iMA",
+  "FUn4RqKPV6sLUJFZCj7QkiRqXBphwqztDG2Xyb5RFY5v",
+  "37fsAonJ2bpV3iwRR83Hu7z6gKawaFp8Zd9NdkPnKnWL",
+  "DLddoiBzRS6217u7gWuuWeFesLJbYVC7xETF3KjkSXTT",
+  "Dg7AGBvLBk41aow6FZKKKoV9No92YyYNr7ftnhmTftBM",
+  "DUda6DnJ465vBH1y6Fke3CyUobdXnDCd7XL2q3JjGusv",
+  "Fx3f4t5jUDgVhgJEkJoAa4vVAhzbgBq2Hnvc596G5Lf7",
+  "6nW3CLmKiW9s3Kr8vZ7B7hJgPVoBUEZtqscuq6fzJWij",
+  "Amx3dkxDRF5asAjkRpf61a8Ef5i2UiVKdpJGsaFRz8ra",
+]
+
+export const BET_WALLETS = [
+  "5ogRB86SG7n5kW5A9h7y3yiAHameCKEUdrRZmMWQRkgrg2ozMWsGFyk9RUETxQ1YAhGr2HADGbASoB1VBo8UPkmX",
+  "6hREq4Rinix1T5Pio5o4MygPTAJ1HMgVsujdnsxgMwvqAq9ZorvwEWPJwhHKGZH2kLYzNd442BcHMf2pEVEswvV",
+  "3FrQRm7rvHk5svU2FfXZG6w8WwVP89XVfc6hqFgGwBuADxoXTgzzyt1DJJ4EC7nX8QrzeLVfnKKnZ57cHhJm1sBs",
+  "4CvgbgxAx2jFd7kmz3DkJNS9u9kBCcX6v54JuUFWMnbT8v2ScBogKu1dYQsHwAkJhfohjizwQ9U56vJVG1YX14gA",
+  "63RRewAJT6SuHJiks7cDomPEA8BPCwSUCwynPXRLsYPUs5H35FPaxWi688xcZEbXFhmwEFJMPAErAKmUVajCmp9G",
+  "2wfkBzEKBtZr8N4sEay43pdeZS4D9EjxYevxM8AUitm49ants5djpPg7yZ12USic6DxmZhCUZ5NaBgC4KsiJzfQ8",
+  "21arY3NHJBbZZn8ZBemNmNwJpsQcYRZiAbLmUFBUcM36So5TiQFb9T4GtQFAQT7ibugnZTHKtL72jJJNR4R2NzXX",
+  "2apK4eAtEeVsZgxKTu7T9TtgFVxZPvU6hKr4yKJX3azwFHV9E21WpBSZ1L2UuKuWaFZm2jSA8qQ9XigoQcNdNgLr",
+  "2wNvyjHyYLYjRxFK9Z8kWjPhQhSBgx4sXALhVSRT5jw1qR1gQDjGVeBqQrXddFhKf8aQSz1i7nT9S95ozaa65227",
+  "27b3yFMWqLMyU4KdxH2CSqe9kkmE9LJB2VF5Rs5VmYk4MofhwYBj5hDZvUyeVHsxG51J3nSSZVuxAh96MpPyQHZT",
+  "5hUqZ95XuZHteFRmfLbV7qWV5w4Dm495xhFbwV3v1BX4FZTtu7EkibHXEVZruuVM6BencmaZ9Pu4ck3mLJrdXWKp",
+  "gYjGHa2oFtogKPLCYh8cs5LnEcNpup4X4ybSh2eotjfnRocu7yqc2nTaksadr3esW1zwBmiZTrxEhq532wD7CzW",
+  "b7gGSgm7r1PFxN2K2YLtttpEc2mAcyyVqfk1EoSp9s152xwMDT9e8YVijKDDd44qCV6VBV21peu2Aervdvtvh4R",
+  "cghqHu2YtnYiXZtYCgdMQtX2zL7iGxCwsRkb6DcJYaigjRpD1bpLe6qomBs6xUagXwadpQgSsTqjK6zbFAaoMns",
+  "2wEAWPG6Yg4v1baH5Xpe5yQaqoEqmsY1C8KcGuV23PKqmx1q1xcv5FmXgmVjfeEducUxMSe1ecrbSmV29scnY5As",
+  "63FbqxfQGfNCdBFjVyYDtJwc9G7r8j2DRvpXHQz6qA2m5S9ciXCv6eTNBesbmKo5F98X29mBxYRtNNjsnW2UjYr6",
+  "5tGhFGazQV2btQ7gjJFuaWcjBwdM84x4fNr5cRhNKn4U9Kpd5tuxvExzarqV6ZsNxyfrFRvi9dgWYcVWxh7YpRuQ",
+  "2aNcfcQoaauJR3BFQBHUEhS7zgqarkQu39Q3cZ4K2sGo81Wg9qH8x35jSEpaCDtCtBLp4T3uRqKF5hVEztkFk9Cb",
+  "5tY2h9CWBx7TDFzVE6dx5J225s1LXge5TGpgvtZN1obUVdq6NrMrJYNiBEkauixv4b8wUAZuw8DnHCMjDB1HaM8U",
+  "3cnFPzfudKzRajLMAkZoqY4W1bsgz1biBhrKSKz3o3t78jFK3UQaB2S87ZNLSqayNXyZqez9trSZ6pcRGHqH8g5x",
+]
